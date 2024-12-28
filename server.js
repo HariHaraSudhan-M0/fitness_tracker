@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 //route
 app.get('/',(req,res)=>{
-
+    console.log("welcome to the app")
 })
 //listen for requests
 app.listen(4000,()=>{
